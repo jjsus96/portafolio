@@ -1,0 +1,32 @@
+.App{
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+
+.about{
+    margin-top: 60px;
+    display:flex;
+    color:white;
+}
+
+.izq{
+    width:50%;
+}
+
+.der{
+    width: 50%;
+    text-align: center;
+}
+
+.perfil{
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    border: 5px solid rgba(255,255,255, 0.85);
+    transition: transform 1s;
+}
+
+.perfil:hover {
+    transform: scale(1.1);
+}

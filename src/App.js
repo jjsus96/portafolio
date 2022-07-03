@@ -1,5 +1,6 @@
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import './style.css';
 
 export default function App() {
   const particlesInit = async (main) => {
@@ -8,7 +9,6 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Hello Coders!</h1>
 
        <Particles
       id="tsparticles"
