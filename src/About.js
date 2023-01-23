@@ -4,12 +4,11 @@ import Perfil from './resources/Perfil.jpg';
 
 function About() {
   return (
-    <div class="about">
-        <div class="izq">
-             
-        </div>
-        <div class="der">
-            <img class="perfil rounded-circle" src={Perfil} />
+    <div className="about">
+        <div className="cent">
+        <img className="perfil rounded-circle" src={Perfil} />
+             <h1 className="nombre">&lt; Jesús Sayago &gt;</h1>
+             <h3 className="titulo">Desarrollador Web Full Stack</h3>
         </div>
     </div>
   );

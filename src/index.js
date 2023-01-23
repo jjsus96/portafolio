@@ -6,7 +6,7 @@ import About from './About';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <div>
+    <div className='general'>
     <Navigationbar />
     <App />
     <About /> 

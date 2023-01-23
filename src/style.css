@@ -1,3 +1,9 @@
+.general{
+    min-height: 100vh;
+    display: grid;
+    justify-items:center;
+}
+
 .App{
     position: fixed;
     width: 100%;
@@ -10,17 +16,28 @@
     color:white;
 }
 
-.izq{
-    width:50%;
+.titulo{
+    text-align:center;
 }
 
-.der{
-    width: 50%;
+.cent{
+    width:100%;
+}
+
+.saludo{
     text-align: center;
 }
 
+.nombre{
+    text-align: center;
+    font-weight: Bold;
+}
+
+p{
+    font-size: 20px
+}
+
 .perfil{
-    width: 400px;
     height: 400px;
     margin: 50px;
     border: 5px solid rgba(255,255,255, 0.85);
